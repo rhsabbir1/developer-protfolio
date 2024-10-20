@@ -1,0 +1,54 @@
+.button{
+    background-color: coral;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+h2{
+    font-size: 40px;
+}
+.style-text{
+    color: orangered;
+}
+.button:hover{
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: beige;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link li {
+    margin-right: 50px;
+    list-style: none;
+}
+.nav-link li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link li a:hover{
+    color:orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
