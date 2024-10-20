@@ -21,12 +21,20 @@ h2{
     background-color: beige;
 }
 
+
 .header{
+        background-image: url(../Image/developer.png), url(../Image/header_bg.png);
+        background-repeat: no-repeat;  
+        background-position: top left ,bottom right;    
+}
+
+.menu{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
     margin: 0 auto;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .nav-link{
@@ -49,6 +57,27 @@ h2{
     font-weight: bold;
 }
 
-
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.banner-content{
+    width: 400px;
+}
+h3{
+    font-size: 40px;
+    font-size: bold;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.banner img{
+    width: 400px;
+}
 
 
